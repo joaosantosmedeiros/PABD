@@ -8,6 +8,7 @@ INSERT INTO funcionario(codigo, nome, sexo, dt_nasc, salario) VALUES
 	(6, 'Alexandre', 'M', '2000-04-01', 200.00);
 	(7, 'Luiz', 'M', '2002-04-01', 5200.00);
 	(8, 'Joseph Douglas', 'M', '2002-06-01', 5600.00);
+	(9, 'Alan Delon', 'M', '2008-06-01', 6300.00);
 
 INSERT INTO departamento(codigo, descricao, cod_gerente) VALUES 
 	(0, 'Departamento Forense', 4),
