@@ -3,7 +3,11 @@ INSERT INTO funcionario(codigo, nome, sexo, dt_nasc, salario) VALUES
 	(1, 'José', 'M', '2003-09-23', 3500.00),
 	(2, 'Maria', 'F', '2006-08-14', 4500.00),
 	(3, 'Natan', 'M', '2004-07-01', 1500.00),
-	(4, 'Ana', 'F', '2007-04-01', 500.00);
+	(4, 'Ana', 'F', '2007-04-01', 500.00),
+	(5, 'Marcos', 'M', '2002-04-01', 7500.00),
+	(6, 'Alexandre', 'M', '2000-04-01', 200.00);
+	(7, 'Luiz', 'M', '2002-04-01', 5200.00);
+	(8, 'Joseph Douglas', 'M', '2002-06-01', 5600.00);
 
 INSERT INTO departamento(codigo, descricao, cod_gerente) VALUES 
 	(0, 'Departamento Forense', 4),
@@ -17,6 +21,8 @@ UPDATE funcionario SET cod_depto = 3 WHERE codigo = 1;
 UPDATE funcionario SET cod_depto = 2 WHERE codigo = 2;
 UPDATE funcionario SET cod_depto = 1 WHERE codigo = 3;
 UPDATE funcionario SET cod_depto = 0 WHERE codigo = 4;
+UPDATE funcionario SET cod_depto = 2 WHERE codigo = 6;
+UPDATE funcionario SET cod_depto = 2 WHERE codigo = 7;
 
 INSERT INTO projeto(codigo, nome, descricao, cod_depto, cod_responsavel, data_inicio, data_fim) VALUES
 	(0, 'Busca de elementos', 'Busca de elemntos forenses', 0, 4, '1999-01-02', '2005-12-04'),
