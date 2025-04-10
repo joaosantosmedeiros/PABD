@@ -7,3 +7,4 @@
 ## Questões
 [Questão 01](tarefa01-q01.sql)
 [Questão 03](tarefa01-q03.sql)
+[Questão 19](tarefa01-q19.sql)
